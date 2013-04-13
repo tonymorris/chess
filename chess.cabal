@@ -30,5 +30,8 @@ Library
                     src
 
   Exposed-Modules:
+                    Chess
+                    Chess.Piece
+                    Chess.PieceColour
                     Chess.PieceType
 

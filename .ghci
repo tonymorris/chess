@@ -1,5 +1,5 @@
 :set -isrc
-:l src/Chess/PieceType.hs
+:l src/Chess.hs
 :m + Test.QuickCheck
 :set prompt ">> "
 :set -Wall
