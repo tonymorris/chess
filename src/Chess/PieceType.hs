@@ -24,3 +24,7 @@ instance ShowC PieceType where
     'N'
   showc Pawn =
     'P'
+
+instance Show PieceType where
+  show =
+    return . showc

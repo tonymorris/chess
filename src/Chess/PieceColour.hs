@@ -12,3 +12,7 @@ instance ShowC PieceColour where
     'w'
   showc Black =
     'b'
+
+instance Show PieceColour where
+  show =
+    return . showc

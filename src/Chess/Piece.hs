@@ -6,6 +6,7 @@ import Chess.ShowC
 
 data Piece =
   Piece PieceType PieceColour
+  deriving Eq
 
 instance ShowC Piece where
   showc (Piece King White) =
@@ -32,3 +33,7 @@ instance ShowC Piece where
     '♞'
   showc (Piece Pawn Black) =
     '♟'
+
+instance Show Piece where
+  show =
+    return . showc
