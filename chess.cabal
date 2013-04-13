@@ -5,16 +5,16 @@ License-File:       LICENSE
 Author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
 Maintainer:         Tony Morris
 Copyright:          Tony Morris
-Synopsis:           A skeleton for creating haskell packages
-Category:           Development
-Description:        A skeleton for creating haskell packages
-Homepage:           https://github.com/tonymorris/haskell-package
+Synopsis:           An API for the game of chess
+Category:           Games
+Description:        An API for the game of chess
+Homepage:           https://github.com/tonymorris/chess
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
 
 Source-Repository   head
   Type:             git
-  Location:         git@github.com:tonymorris/haskell-package.git
+  Location:         git@github.com:tonymorris/chess.git
 
 Flag                small_base
   Description:      Choose the new, split-up base package.
